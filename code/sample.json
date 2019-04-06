@@ -1,0 +1,146 @@
+{
+  '_reddit': <praw.reddit.Reddit
+  object
+  at
+  0x110079358>,
+  'approved_at_utc': None,
+  'subreddit': Subreddit(display_name=
+  'rit'
+  ),
+  'selftext': "Hello Tigers!\n\nThis will be a space to post any and all events for RIT students. That can be on-campus events, things going around the city, or even use this space to plan your own events! For an archive of these posts, [check out this link](https://www.reddit.com/r/rit/search?q=author%3Aautomoderator+what's+going+on&restrict_sr=on&sort=new&t=all).\n\n**Reply to the corresponding day of the week.** Top-level comments will be automatically removed.\n\n---\n\nHere's a list of Resources for you:  \n\n* [RIT Events Calendar](https://events.rit.edu/)\n* [RIT Campus Groups Events](https://campusgroups.rit.edu/events)\n* [RIT College Activities Board](http://www.rit.edu/studentaffairs/cab/)\n* [Visit Rochester Events](http://www.visitrochester.com/events/)\n* [Rochester First calendar](http://www.rochesterfirst.com/calendar#/)\n* [Democrat and Chronicle Events Page](http://events.democratandchronicle.com)\n* [Rochester on Eventbrite](https://www.eventbrite.com/d/ny--rochester/events/)\n\nFor suggestions, please [message the mods](https://www.reddit.com/message/compose?to=%2Fr%2Frit). As always, play nice and avoid posting personal information.\n",
+  'author_fullname': 't2_6l4z3',
+  'saved': False,
+  'mod_reason_title': None,
+  'gilded': 0,
+  'clicked': False,
+  'title': "What's going on at RIT and Rochester? Apr 07 - Apr 13",
+  'link_flair_richtext': [],
+  'subreddit_name_prefixed': 'r/rit',
+  'hidden': False,
+  'pwls': 6,
+  'link_flair_css_class': None,
+  'downs': 0,
+  'thumbnail_height': None,
+  'hide_score': False,
+  'name': 't3_ba6gdp',
+  'quarantine': False,
+  'link_flair_text_color': 'dark',
+  'author_flair_background_color': '',
+  'subreddit_type': 'public',
+  'ups': 2,
+  'domain': 'self.rit',
+  'media_embed': {},
+  'thumbnail_width': None,
+  'author_flair_template_id': None,
+  'is_original_content': False,
+  'user_reports': [],
+  'secure_media': None,
+  'is_reddit_media_domain': False,
+  'is_meta': False,
+  'category': None,
+  'secure_media_embed': {},
+  'link_flair_text': None,
+  'can_mod_post': False,
+  'score': 2,
+  'approved_by': None,
+  'thumbnail': 'self',
+  'edited': False,
+  'author_flair_css_class': None,
+  'author_flair_richtext': [],
+  'gildings': {
+    'gid_1': 0,
+    'gid_2': 0,
+    'gid_3': 0
+  },
+  'post_hint': 'self',
+  'content_categories': None,
+  'is_self': True,
+  'mod_note': None,
+  'created': 1554570306.0,
+  'link_flair_type': 'text',
+  'wls': 6,
+  'banned_by': None,
+  'author_flair_type': 'text',
+  'contest_mode': False,
+  'selftext_html': '<!-- SC_OFF --><div class="md"><p>Hello Tigers!</p>\n\n<p>This will be a space to post any and all events for RIT students. That can be on-campus events, things going around the city, or even use this space to plan your own events! For an archive of these posts, <a href="https://www.reddit.com/r/rit/search?q=author%3Aautomoderator+what&#x27;s+going+on&amp;restrict_sr=on&amp;sort=new&amp;t=all">check out this link</a>.</p>\n\n<p><strong>Reply to the corresponding day of the week.</strong> Top-level comments will be automatically removed.</p>\n\n<hr/>\n\n<p>Here&#39;s a list of Resources for you:  </p>\n\n<ul>\n<li><a href="https://events.rit.edu/">RIT Events Calendar</a></li>\n<li><a href="https://campusgroups.rit.edu/events">RIT Campus Groups Events</a></li>\n<li><a href="http://www.rit.edu/studentaffairs/cab/">RIT College Activities Board</a></li>\n<li><a href="http://www.visitrochester.com/events/">Visit Rochester Events</a></li>\n<li><a href="http://www.rochesterfirst.com/calendar#/">Rochester First calendar</a></li>\n<li><a href="http://events.democratandchronicle.com">Democrat and Chronicle Events Page</a></li>\n<li><a href="https://www.eventbrite.com/d/ny--rochester/events/">Rochester on Eventbrite</a></li>\n</ul>\n\n<p>For suggestions, please <a href="https://www.reddit.com/message/compose?to=%2Fr%2Frit">message the mods</a>. As always, play nice and avoid posting personal information.</p>\n</div><!-- SC_ON -->',
+  'likes': None,
+  'suggested_sort': None,
+  'banned_at_utc': None,
+  'view_count': None,
+  'archived': False,
+  'no_follow': True,
+  'is_crosspostable': True,
+  'pinned': False,
+  'over_18': False,
+  'preview': {
+    'images': [
+      {
+        'source': {
+          'url': 'https://external-preview.redd.it/1shRxLsvuTaXk-4NqNrwRc1tWr0m1RlhOujQwKLDHlw.jpg?auto=webp&s=e9ff6df8aec6983949784aa6ad41dff2d61d9cbf',
+          'width': 407,
+          'height': 229
+        },
+        'resolutions': [
+          {
+            'url': 'https://external-preview.redd.it/1shRxLsvuTaXk-4NqNrwRc1tWr0m1RlhOujQwKLDHlw.jpg?width=108&crop=smart&auto=webp&s=a600c7b0bbf0f146fad36b4cd9f07085c3168283',
+            'width': 108,
+            'height': 60
+          },
+          {
+            'url': 'https://external-preview.redd.it/1shRxLsvuTaXk-4NqNrwRc1tWr0m1RlhOujQwKLDHlw.jpg?width=216&crop=smart&auto=webp&s=5b67a8a9b55c2cd586238206f72e4c54964aa5b3',
+            'width': 216,
+            'height': 121
+          },
+          {
+            'url': 'https://external-preview.redd.it/1shRxLsvuTaXk-4NqNrwRc1tWr0m1RlhOujQwKLDHlw.jpg?width=320&crop=smart&auto=webp&s=ab1c6189528ebe1c0282044d1643020e4dd24433',
+            'width': 320,
+            'height': 180
+          }
+        ],
+        'variants': {},
+        'id': 'F5_i95Xv8L8jRlN2LE_bpbAiogKCL1hrfPbZkyE4fdw'
+      }
+    ],
+    'enabled': False
+  },
+  'media_only': False,
+  'can_gild': True,
+  'spoiler': False,
+  'locked': False,
+  'author_flair_text': 'Robot',
+  'visited': False,
+  'num_reports': None,
+  'distinguished': 'moderator',
+  'subreddit_id': 't5_2qh3x',
+  'mod_reason_by': None,
+  'removal_reason': None,
+  'link_flair_background_color': '',
+  'id': 'ba6gdp',
+  'is_robot_indexable': True,
+  'report_reasons': None,
+  'author': Redditor(name=
+  'AutoModerator'
+  ),
+  'num_crossposts': 0,
+  'num_comments': 0,
+  'send_replies': False,
+  'whitelist_status': 'all_ads',
+  'mod_reports': [],
+  'author_patreon_flair': False,
+  'author_flair_text_color': 'dark',
+  'permalink': '/r/rit/comments/ba6gdp/whats_going_on_at_rit_and_rochester_apr_07_apr_13/',
+  'parent_whitelist_status': 'all_ads',
+  'stickied': True,
+  'url': 'https://www.reddit.com/r/rit/comments/ba6gdp/whats_going_on_at_rit_and_rochester_apr_07_apr_13/',
+  'subreddit_subscribers': 12773,
+  'created_utc': 1554570306.0,
+  'media': None,
+  'is_video': False,
+  '_fetched': False,
+  '_info_params': {},
+  'comment_limit': 2048,
+  'comment_sort': 'best',
+  '_flair': None,
+  '_mod': None,
+  '_comments_by_id': {}
+}
