@@ -1,0 +1,104 @@
+{'_reddit': <praw.reddit.Reddit object at 0x1021c1358>, 'approved_at_utc': None, 'subreddit': Subreddit(display_name='IAmA'),
+  'selftext': "**Hello everyone, and welcome to the First Annual Best Of IAmA Awards!**\n\n
+  ^(Yes, we're a little behind the times, all the other subreddits have been doing it forever.
+  But ours is going to be the best.)\n\nUnlike many subreddits that feature posts, our goal here is
+  to highlight you, our users. Bernie and Bill Gates can afford their own Reddit Gold.\n\nIn that spirit,
+  today we're going to take nominations for the following categories:\n\n• Best Question (that was answered)  \n•
+  Most Awkward Question (that was answered)  \n• Funniest Question (that was answered)  \n• Best Unanswered Question
+  \n\nAnd we will reluctantly do the obvious:\n\n• Best AMA  \n•
+  Best Answer \n\nFor these last two we ask that you look for AMAs from people who really *got* Reddit,
+  who provided an AMA experience that was above and beyond rather than just staying for an hour.\n
+  \nPlease leave your nominations as a reply to one of the comments below, matching the category,
+  and keep all other discussion to the comment labeled for it. Please note that if more than one
+  person nominates the same thing for each category, we'll consider it the nomination that came first.\n
+  \n**Prizes**:\n\nThanks to the generosity of the admins,
+  we'll have some Reddit Platinum and Gold to hand out -
+  Platinum to the winners of each category, and Gold to the
+  Redditor who nominates each winner - so go dig out those top comments fast.
+  I also have cool AMA stickers to send out to any of our winners or nominators who want them!\n",
+
+  'author_fullname': 't2_47auc',
+  'saved': False,
+  'mod_reason_title': None,
+  'gilded': 1, 'clicked': False,
+  'title': '[Mod Post] Announcing the First Ever Annual Best Of IAmA Awards!',
+  'link_flair_richtext': [],
+  'subreddit_name_prefixed': 'r/IAmA',
+  'hidden': False, 'pwls': 6,
+  'link_flair_css_class': 'modpost',
+  'downs': 0, 'thumbnail_height': None, 'hide_score': False,
+  'name': 't3_a3ojao', 'quarantine': False,
+  'link_flair_text_color': 'dark', 'author_flair_background_color': None,
+  'subreddit_type': 'public', 'ups': 381, 'domain': 'self.IAmA', 'media_embed': {}, 'thumbnail_width': None,
+  'author_flair_template_id': None,
+  'is_original_content': False,
+  'user_reports': [], 'secure_media': None, 'is_reddit_media_domain': False, 'is_meta': False,
+  'category': None,
+  'secure_media_embed': {},
+  'link_flair_text': 'Mod Post', 'can_mod_post': False,
+  'score': 381,
+  'approved_by': None, 'thumbnail': 'self',
+  'edited': 1544108410.0, 'author_flair_css_class': None, 'author_flair_richtext': [],
+  'gildings': {'gid_1': 0, 'gid_2': 1, 'gid_3': 0},
+  'content_categories': None,
+  'is_self': True,
+  'mod_note': None,
+  'created': 1544107679.0,
+  'link_flair_type': 'text',
+  'wls': 6, 'banned_by': None,
+  'author_flair_type': 'text',
+  'contest_mode': False, '
+  selftext_html': '<!-- SC_OFF --><div class="md"><p><strong>Hello everyone, and welcome to the First Annual Best Of IAmA Awards!</strong></p>\n\n<p><sup>Yes,
+  we&#39;re a little behind the times, all the other subreddits have been doing it forever. But ours is going to be the best.</sup></p>\n\n<p>Unlike many subreddits
+  that feature posts, our goal here is to highlight you, our users. Bernie and Bill Gates can afford their own Reddit Gold.</p>\n\n<p>In that spirit, today we&#39;
+  re going to take nominations for the following categories:</p>\n\n<p>• Best Question (that was answered)<br/>\n• Most Awkward Question (that was answered)<br/>\n•
+  Funniest Question (that was answered)<br/>\n• Best Unanswered Question  </p>\n\n<p>And we will reluctantly do the obvious:</p>\n\n<p>• Best AMA<br/>\n• Best Answer
+  </p>\n\n<p>For these last two we ask that you look for AMAs from people who really <em>got</em> Reddit, who provided an AMA experience that was above and beyond
+  rather than just staying for an hour.</p>\n\n<p>Please leave your nominations as a reply to one of the comments below, matching the category, and keep all other
+  discussion to the comment labeled for it. Please note that if more than one person nominates the same thing for each category, we&#39;ll consider it the nominatio
+  n that came first.</p>\n\n<p><strong>Prizes</strong>:</p>\n\n<p>Thanks to the generosity of the admins, we&#39;ll have some Reddit Platinum and Gold to hand out -
+  Platinum to the winners of each category, and Gold to the Redditor who nominates each winner - so go dig out those top comments fast. I also have cool AMA stickers
+  to send out to any of our winners or nominators who want them!</p>\n</div><!-- SC_ON -->',
+  'likes': None,
+  'suggested_sort': None,
+  'banned_at_utc': None,
+  'view_count': None,
+  'archived': False,
+  'no_follow': False,
+  'is_crosspostable': True,
+  'pinned': False, 'over_18':
+False, 'media_only': False,
+  'link_flair_template_id': '28b85ada-7b2e-11e4-b45f-12313d1494bc',
+  'can_gild': True,
+  'spoiler': False,
+  'locked': False,
+  'author_flair_text': None,
+  'visited': False,
+  'num_reports': None,
+  'distinguished': 'moderator',
+  'subreddit_id': 't5_2qzb6',
+  'mod_reason_by': None,
+  'removal_reason': None,
+  'link_flair_background_color': '',
+  'id': 'a3ojao',
+  'is_robot_indexable': True,
+  'report_reasons': None,
+  'author': Redditor(name='cahaseler'),
+  'num_crossposts': 0, 'num_comments': 77,
+  'send_replies': True,
+  'whitelist_status': 'all_ads',
+  'mod_reports': [], 'author_patreon_flair': False,
+  'author_flair_text_color': None,
+  'permalink': '/r/IAmA/comments/a3ojao/mod_post_announcing_the_first_ever_annual_best_of/',
+  'parent_whitelist_status': 'all_ads', 'stickied': True,
+  'url': 'https://www.reddit.com/r/IAmA/comments/a3ojao/mod_post_announcing_the_first_ever_annual_best_of/',
+  'subreddit_subscribers': 18949655,
+  'created_utc': 1544107679.0,
+  'media': None,
+  'is_video': False,
+  '_fetched': False,
+  '_info_params': {},
+  'comment_limit': 2048,
+  'comment_sort': 'best',
+  '_flair': None,
+  '_mod': None, '_comments_by_id': {}}
