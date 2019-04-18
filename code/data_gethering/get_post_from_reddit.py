@@ -3,9 +3,22 @@ import json
 
 data = []
 reddit = connect_to_reddit()
-for comment in reddit.subreddit('iama').hot(limit=5):
-    data.append({'seltext' :comment.selftext, 'title': comment.title,'subredditName': 'iama' })
-print(data)
+i=0
+
+for submission in reddit.subreddit('documentaries').top(limit = 2000):
+    print(i)
+    i += 1
+    print(vars(submission))
+    data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName':
+        'documentaries'})
+
+reddit = connect_to_reddit()
+
+for submission in reddit.subreddit('lifehacks').top(limit = 2000):
+    print(i)
+    i += 1
+    print(vars(submission))
+    data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName': 'lifehacks'})
 
 
 with open('posts.json', 'w') as fp:
