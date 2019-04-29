@@ -5,20 +5,14 @@ data = []
 reddit = connect_to_reddit()
 i=0
 
-for submission in reddit.subreddit('Frugal').top(limit = 2000):
-    print(i)
-    i += 1
-    print(vars(submission))
-    data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName':
-        'Frugal'})
+subredditName = 'IAmA'
+for submission in reddit.subreddit(subredditName).top(limit = 2000):
+    data.append({'body': submission.selftext,  'class': subredditName})
 
-reddit = connect_to_reddit()
-
-for submission in reddit.subreddit('lifehacks').top(limit = 2000):
-    print(i)
-    i += 1
-    print(vars(submission))
-    data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName': 'lifehacks'})
+# reddit = connect_to_reddit()
+subredditName = 'stories'
+for submission in reddit.subreddit(subredditName).top(limit = 2000):
+    data.append({'body': submission.selftext,  'class': subredditName})
 
 
 with open('posts.json', 'w') as fp:
