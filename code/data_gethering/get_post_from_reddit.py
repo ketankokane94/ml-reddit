@@ -12,13 +12,13 @@ for submission in reddit.subreddit('Frugal').top(limit = 2000):
     data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName':
         'Frugal'})
 
-# reddit = connect_to_reddit()
-#
-# for submission in reddit.subreddit('lifehacks').top(limit = 2000):
-#     print(i)
-#     i += 1
-#     print(vars(submission))
-#     data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName': 'lifehacks'})
+reddit = connect_to_reddit()
+
+for submission in reddit.subreddit('lifehacks').top(limit = 2000):
+    print(i)
+    i += 1
+    print(vars(submission))
+    data.append({'seltext': submission.selftext, 'title': submission.title, 'subredditName': 'lifehacks'})
 
 
 with open('posts.json', 'w') as fp:
