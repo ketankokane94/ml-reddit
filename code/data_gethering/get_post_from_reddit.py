@@ -3,7 +3,6 @@ import json
 
 data = []
 reddit = connect_to_reddit()
-i=0
 
 subredditName = 'IAmA'
 for submission in reddit.subreddit(subredditName).top(limit = 2000):
