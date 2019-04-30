@@ -44,7 +44,7 @@ train_X = vectorizer.transform(train_X)
 test_X = vectorizer.transform(test_X)
 
 # train the model
-clf = svm.SVC(gamma='auto')
+clf = svm.SVC(kernel='linear')
 clf.fit(train_X,train_y)
 
 predictions_SVM = clf.predict(train_X)
@@ -55,5 +55,9 @@ predictions_SVM = clf.predict(test_X)
 # calculate accuracy on testing set
 print("SVM Accuracy Score testing set -> ",accuracy_score(predictions_SVM, test_y)*100)
 
-
-
+validation = pd.read_csv('validation.csv')
+validate_y = Encoder.fit_transform(validation['class'])
+validate_x = vectorizer.transform(validation['body'])
+predictions_SVM = clf.predict(validate_x)
+# calculate accuracy on validation set
+print("SVM Accuracy Score validation set -> ",accuracy_score(predictions_SVM, validate_y)*100)
