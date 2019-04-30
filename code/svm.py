@@ -1,10 +1,12 @@
-import  pandas as pd
+import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn import svm
 from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestRegressor
+import time
 
 # read the JSON dataset
 data = pd.read_json('posts.json')
@@ -43,21 +45,93 @@ vectorizer = count_vect.fit(train_X)
 train_X = vectorizer.transform(train_X)
 test_X = vectorizer.transform(test_X)
 
+
 # train the model
+start = time.time()
+
 clf = svm.SVC(kernel='linear')
-clf.fit(train_X,train_y)
+clf.fit(train_X, train_y)
+
+end = time.time()
+
+print("Time taken train = ", end - start)
+
+print()
+
+'''# train the model
+start = time.time()
+
+clf = svm.SVC(kernel='rbf')
+clf.fit(train_X, train_y)
+
+end = time.time()
+
+print("Time taken train = ", end - start)'''
 
 predictions_SVM = clf.predict(train_X)
 # calculate accuracy on training set
-print("SVM Accuracy Score training set -> ",accuracy_score(predictions_SVM, train_y)*100)
+print("SVM Accuracy Score training set -> ", accuracy_score(predictions_SVM, train_y)*100)
 
 predictions_SVM = clf.predict(test_X)
 # calculate accuracy on testing set
-print("SVM Accuracy Score testing set -> ",accuracy_score(predictions_SVM, test_y)*100)
+print("SVM Accuracy Score testing set -> ", accuracy_score(predictions_SVM, test_y)*100)
 
 validation = pd.read_csv('validation.csv')
 validate_y = Encoder.fit_transform(validation['class'])
 validate_x = vectorizer.transform(validation['body'])
 predictions_SVM = clf.predict(validate_x)
 # calculate accuracy on validation set
-print("SVM Accuracy Score validation set -> ",accuracy_score(predictions_SVM, validate_y)*100)
+print("SVM Accuracy Score validation set -> ", accuracy_score(predictions_SVM, validate_y)*100)
+
+rf = RandomForestRegressor(500)
+
+start = time.time()
+
+rf.fit(train_X, train_y)
+
+end = time.time()
+
+print("Time taken train = ", end - start)
+
+start = time.time()
+
+prediction_rf = rf.predict(train_X)
+
+end = time.time()
+
+print("Time taken train predict = ", end - start)
+
+# Round off to 0 or 1 for accuracy
+for index in range(len(prediction_rf)):
+    prediction_rf[index] = int(round(prediction_rf[index]))
+
+print("Random Forest Accuracy on training : ", accuracy_score(prediction_rf, train_y) * 100)
+
+start = time.time()
+
+prediction_rf = rf.predict(test_X)
+
+end = time.time()
+
+print("Time taken test predict = ", end - start)
+
+# Round off to 0 or 1 for accuracy
+for index in range(len(prediction_rf)):
+    prediction_rf[index] = int(round(prediction_rf[index]))
+
+print("Random Forest Accuracy on testing : ", accuracy_score(prediction_rf, test_y) * 100)
+
+start = time.time()
+
+prediction_rf = rf.predict(validate_x)
+
+end = time.time()
+
+print("Time taken validate predict = ", end - start)
+
+# Round off to 0 or 1 for accuracy
+for index in range(len(prediction_rf)):
+    prediction_rf[index] = int(round(prediction_rf[index]))
+
+print("Random Forest Accuracy on validation : ", accuracy_score(prediction_rf, validate_y) * 100)
+
